@@ -41,6 +41,9 @@ export default function Header() {
           <Link href="/manifesto" className="hover:text-brand">
             Manifesto
           </Link>
+          <Link href="/lab" className="hover:text-brand">
+            Lab
+          </Link>
           <a href="/#sobre" className="hover:text-brand">
             Quem somos
           </a>
@@ -124,6 +127,9 @@ export default function Header() {
             </a>
             <Link href="/manifesto" onClick={() => setMenuOpen(false)}>
               Manifesto
+            </Link>
+            <Link href="/lab" onClick={() => setMenuOpen(false)}>
+              Lab
             </Link>
             <a href="/#sobre" onClick={() => setMenuOpen(false)}>
               Quem somos
